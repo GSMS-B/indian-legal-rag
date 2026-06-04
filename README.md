@@ -20,6 +20,19 @@ pinned: false
   <img src="https://img.shields.io/badge/OpenRouter-000000?style=for-the-badge&logo=openai&logoColor=white" alt="OpenRouter">
 </div>
 
+<!-- IMAGE PLACEHOLDER -->
+<div align="center">
+  <img src="poster.png" alt="Indian Criminal Law RAG Banner" width="800">
+</div>
+
+<div align="center">
+  <h3><a href="https://huggingface.co/spaces/GSMS-B/indian-legal-rag">🚀 Try the Live Demo Here</a></h3>
+</div>
+
+<br>
+
+
+
 <br>
 
 An advanced **Retrieval-Augmented Generation (RAG)** application designed to navigate, query, and explain the newly reformed Indian Criminal Justice system. It intelligently retrieves context across all three new legal codes to provide accurate, legally grounded answers.
