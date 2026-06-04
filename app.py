@@ -36,7 +36,7 @@ html, body, [class*="css"] {
 .main-header h1 {
     font-size: 2.6rem;
     font-weight: 700;
-    color: #764ba2;
+    color: #2e7d32;
     margin-bottom: 0.2rem;
 }
 .main-header .subtitle {
