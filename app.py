@@ -7,6 +7,8 @@ Run with:  streamlit run app.py
 import os
 os.environ["TRANSFORMERS_VERBOSITY"] = "error"
 os.environ["TRANSFORMERS_NO_ADVISORY_WARNINGS"] = "1"
+import logging
+logging.getLogger("transformers").setLevel(logging.ERROR)
 
 import streamlit as st
 
@@ -34,10 +36,7 @@ html, body, [class*="css"] {
 .main-header h1 {
     font-size: 2.6rem;
     font-weight: 700;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: #764ba2;
     margin-bottom: 0.2rem;
 }
 .main-header .subtitle {
